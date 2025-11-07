@@ -5,59 +5,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title lang="en">Backery</title>
+  <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
-
   <header>
-
     <nav>
-
-      <a href="#"> <img src="./images/logo.svg" alt="logotyp Backery"></a>
-
-
-      <!-- menu -->
+      <a href="./index.html"> <img src="./images/logo.svg" alt="logotyp Backery">
+      </a>
 
       <ul>
 
-        <li><a href="#"></a>Франшиза</li>
-        <li><a href="#"></a>Наші традиції</li>
-        <li><a href="#"></a>Формати</li>
-        <li><a href="#"></a>Контакти</li>
-
+        <li><a class="headerfoter-link" href="#traditions">Наші традиції</a></li>
+        <li><a class="headerfoter-link" href="#kychari">Кухарі</a></li>
+        <li><a class="headerfoter-link" href="#formaty">Формати</a></li>
+        <li><a class="headerfoter-link" href="#kontakty">Контакти</a></li>
 
       </ul>
-
-
     </nav>
-    <!-- button/call -->
-    <button type="button">Замовити дзвінок</button>
+
+    <button class="button" type="button">Замовити дзвінок</button>
 
   </header>
   <main>
 
     <section>
-      <h1>Сучасна пекарня</h1>
+      <h1 class="hero"><span class="akcent">Сучасна</span> пекарня</h1>
     </section>
 
-    <section>
-
-      <ul>
+    <section id="traditions">
+      <ul class="advantages-list">
 
         <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
         <li>Досвідчена управлінська команда</li>
 
-
-
       </ul>
 
-      <h2>Новий формат традицій</h2>
+      <h2 class="section-title">Новий формат традицій</h2>
+
       <p>
         <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
         натуральність інгредієнтів.
       </p>
-
       <p>
         Ми працюємо як найвідоміші мережі—
         <span>5 хвилин і замовлення готове.</span>
@@ -65,13 +56,12 @@
         та висока якість обслуговування!
       </p>
 
-      <img src="./images/Mask group.jpg" alt="мужик хліб">
-
+      <img src="./images/Mask_group.jpg" alt="мужик хліб">
 
     </section>
 
-    <section>
-      <h2>Наші найкращі шеф -кухарі</h2>
+    <section id="kychari">
+      <h2 class="section-title">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
 
       <ul>
         <li>
@@ -82,7 +72,6 @@
 
             <p>Вже 10 років, я свтілюю
               у життя цікаві та смачні ідеї.</p>
-
 
             <p>Я випічу для вас
               найсмачніщі вироби!</p>
@@ -100,7 +89,6 @@
             <p>Мій кодитерський стаж вже 18 років.
               SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами через нашу випічку!</p>
 
-
             <p>Я зроблю для вас унікальну начинку на будь який смак!</p>
 
             <img src="./images/Vlad.jpg" alt="Vlad">
@@ -110,9 +98,8 @@
       </ul>
 
     </section>
-    <section>
-      <h2>Формати</h2>
-
+    <section id="formaty">
+      <h2 class="section-title">Формати</h2>
 
       <ul>
         <li>
@@ -132,35 +119,29 @@
         </li>
       </ul>
     </section>
-    <section>
-      <h2>Приєднуйся до
+    <section id="kontakty">
+      <h2 class="section-title">Приєднуйся до
         мережі пекарень</h2>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5034.260880933625!2d20.6510588!3d50.8842961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471827a57ed9deff%3A0x14e679f0afa98fb5!2sRedax.%20Widurscy%20D.R.!5e0!3m2!1suk!2spl!4v1762275912881!5m2!1suk!2spl"
+        width="603" height="595" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </section>
-
-
   </main>
-
-
   <footer>
-
     <nav>
 
-      <a href="#"> <img src="./images/logo.svg" alt="logotyp Backery"></a>
-
-      <!-- logo -->
-      <!-- menu -->
+      <a href="./index.html"> <img src="./images/logo.svg" alt="logotyp Backery"></a>
 
       <ul>
 
-        <li><a href="#"></a>Франшиза</li>
         <li><a href="#"></a>Наші традиції</li>
+        <li><a href="#"></a>Кухарі</li>
         <li><a href="#"></a>Формати</li>
         <li><a href="#"></a>Контакти</li>
 
-
       </ul>
-
-
     </nav>
     <address>
       <ul>
@@ -172,18 +153,17 @@
 
         <li>
           <a href="#"></a>
-          <!--- facebook icon --->
+          <!--- facebook icon -->
         </li>
         <li>
           <a href="#"></a>
-          <!--- instagram icon --->
+          <!--- instagram icon -->
         </li>
-
 
       </ul>
 
       <a href="#" target="_blank">Політика Конфеденційності</a>
-      <p>© 2022 Дані захищені</p>
+      <p>&copy; 2022 Дані захищені</p>
 
     </address>
   </footer>
